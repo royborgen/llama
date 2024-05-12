@@ -8,7 +8,8 @@ The script manages the Ollama listener service and starts or stops the LLM llama
 You can start or stop the Ollama listener service by running the script with an argument. The available arguments are:
 
 * `start`: Starts the Ollama listener service and runs the LLM llama3 model using `ollama run llama3`. This command executes 
-`sudo systemctl start snap.ollama.listener.service` to start the service.
+`sudo systemctl start snap.ollama.listener.service` to start the service. Once the Ollama is closed the script will execute `sudo systemctl stop snap.ollama.listener.service`
+
 * `stop`: Stops the Ollama listener service by executing `sudo systemctl stop snap.ollama.listener.service`.
 
 You can also display this help message by running the script with the `-h` or `--help` argument.
