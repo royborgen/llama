@@ -33,7 +33,7 @@ Stopping Ollama listener service...
 * The script assumes that you have the `sudo` command available and configured correctly on your system.
 * You need to have the `ollama run llama3` command installed and available in your system's PATH.
 
-## ALIAS
+## Alias
 To make your live easier it recommended to set up a alias in your home directory .bashrc
 ```
 alias llama='/home/user/scripts/llama/llama.sh'
